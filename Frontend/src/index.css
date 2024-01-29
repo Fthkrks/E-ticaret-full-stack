@@ -1,0 +1,231 @@
+/*? Base html start */
+
+/* Goggle fonts */
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap");
+
+:root {
+  --primary-color: #1367ef;
+  --border: 0.1rem solid #dee0ea;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  /* üsteki kodla 16 px 10 px e dönüştürür */
+  overflow-x: hidden;
+
+  /*! bu kodlar animasyona giriyordikkat et  */
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 2.4rem;
+  font-weight: 500;
+  display: flex;
+}
+
+
+button{ 
+  border: none;
+}
+
+button:disabled{
+  opacity: 0.4 !important;
+  cursor: no-drop;
+}
+
+
+.btn{
+  display: inline-block;
+  padding: 0 2.5rem;
+  line-height: 4rem;
+  border: 1px solid black;
+  font-weight: 500;
+  transition: .2s ease all;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+
+.btn-sm{
+  line-height: 3.3rem;
+
+}
+
+.btn-lg{
+  line-height: 4.5rem;
+}
+
+.btn-primary{
+  background-color: var(--primary-color);
+  color: white;
+  border: 1px solid var(--primary-color);
+}
+
+
+.btn-primary:hover{
+  color: var(--primary-color);
+  background-color: white;
+}
+
+
+.btn-second{
+  background-color:#ee403d;
+  border-color: #ee403d;
+  color: white;
+}
+
+
+.btn-third{
+  background-color: black;
+  color: white;
+}
+
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+textarea{
+  
+  border: var(--border);
+  outline: none;
+  padding: 8px 8px 8px 15px;
+}
+
+
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus{
+
+  border-color: gray;
+
+}
+
+input[type ="number"]::-webkit-inner-spin-button{
+
+  opacity: 1;
+}
+
+
+.img-fluid{
+
+  width: 100%;
+}
+
+
+/*? Base html end  */
+
+
+
+/*? container responsive start  */
+
+
+@media (max-width: 1200px){
+
+  .container{
+  
+    max-width: 99.2rem;
+  }
+  
+  
+  }
+  
+  
+  @media (max-width: 992px){
+  
+    .container{
+  
+      max-width: 76.8rem;
+    }
+  }
+  
+  
+  
+  @media (max-width: 768px){
+  
+  
+    .container{
+  
+      max-width: 57.6rem;
+    }
+  }
+  
+  
+  @media (max-width: 576px){
+    .container{
+  
+  
+      max-width: 42rem;
+    }
+  }
+  
+  
+  
+  
+  @media (max-width: 420px){
+  
+    .container{
+  
+      max-width: 35rem;
+    }
+  }
+  /*? container responsive end  */
+
+
+
+  /* react-slick-css */
+
+
+  .slick-slide > div{
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.slick-list {
+  margin: 0 -10px;}
+
+
+  

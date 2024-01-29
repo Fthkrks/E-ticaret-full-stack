@@ -1,0 +1,293 @@
+
+.site-main .product-info{
+    width: 50%;
+    padding-left: 1.5rem;
+}
+
+
+
+
+.site-main .product-title{
+    font-size: 3.4rem;
+    font-weight: 800;
+}
+
+
+.site-main .product-review{
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.product-review .product-star{
+    display: flex;
+    
+}
+
+.product-star i{
+    color: gold;
+    font-size: 1.2rem;
+}
+
+.product-review span{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+
+.site-main  .product-price{
+    display: flex;
+    align-items: center;
+    column-gap: 0.7rem;
+}
+
+.site-main  .product-price s{
+    font-size: 1.8rem;
+    color: #dee0ea;
+}
+
+
+.site-main  .product-price strong{
+    font-size: 2rem;
+
+}
+
+
+.site-main .product-desc{
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin: 1.5rem 0;
+}
+
+
+.site-main .colors .colors-wrapper{
+    display: flex;
+    column-gap: 0.4rem;
+    margin-left: -0.1rem;
+
+}
+
+
+.site-main .colors .colors-label{
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+
+.site-main .color-wrapper{
+    border: 1px solid transparent;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    padding: 0.2rem;
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.site-main .color-wrapper input{
+    display: none;
+}
+
+.site-main .color-wrapper.active{
+    border-color: #e51414;
+}
+
+.site-main .color-wrapper:hover{
+    border-color: #e51414;
+
+}
+
+.site-main .color-wrapper label{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-right: 0.5rem;
+    border-radius: 100%;
+}
+
+
+
+
+.site-main .color-wrapper .color-blue{
+    background-color: blue;
+
+}
+
+
+
+
+
+.site-main .color-wrapper .color-red{
+    background-color: red;
+
+}
+
+.site-main .color-wrapper .color-purple{
+    background-color: purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+.site-main .color-wrapper .color-green{
+    background-color: green;
+}
+
+
+
+
+.site-main .values{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    row-gap: 1rem;
+}
+
+
+.site-main .values .values-label span{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    
+}
+
+
+.site-main .values .values-list{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+
+.site-main .values .values-list span{
+    padding: 0.8rem 4rem;
+    border: 1px solid #dee0ea;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: .2s ease all;
+    flex: 1;
+    text-align: center;
+    
+}
+
+
+.site-main .values .values-list span:hover{
+    background-color: #e51414;
+    color: white;
+}
+
+
+
+
+.site-main .values .values-list span.active{
+    background-color: #e51414;
+    color: white;
+}
+
+
+.site-main .cart-button{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.site-main .cart-button input{
+    width: 8rem;
+}
+
+.site-main .cart-button button{
+    width: 100%;
+}
+
+
+
+
+.site-main .cart-button button:disabled{
+    background-color: #1367ef;
+    color: white;
+    border-color: #1367ef;
+}
+
+
+.site-main .product-extra-buttons{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+
+}
+
+
+.site-main .product-extra-buttons a{
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.site-main .divider{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #dee0ea;
+}
+
+
+.site-main .product-meta{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.6rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+
+
+.site-main .product-meta span{
+    color: #ccc;
+}
+
+
+@media (max-width: 768px){
+    .site-main{
+        flex-direction: column;
+        
+    }
+
+    .site-main  .product-gallery,
+    .site-main .product-info{
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .site-main .product-info{
+        margin-top: 3rem;
+    }
+
+    .site-main .values-list span{
+        display: inline-block ;
+        padding: 0.6rem !important;
+
+    }
+
+}
+
+
+
+@media (max-width: 568px){
+    .site-main  .product-gallery,
+    .site-main .product-info{
+        width: 100%;
+        padding: 2rem;
+
+    }
+}

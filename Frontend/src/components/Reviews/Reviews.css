@@ -1,0 +1,151 @@
+/*! comment item start */
+
+.comments .comment-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.comments .comment-item{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+.comments .comment-avatar img{
+    border-radius: 50%;
+}
+
+.comment-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.6rem;
+}
+
+
+.comment-text .comment-star{
+    display: flex;
+}
+
+.comment-text .comment-star i{
+    color: gold;
+    font-size: 1.2rem;
+}
+
+.comment-text .comment-meta{
+    font-size: 1.2rem;
+
+}
+
+.comment-text .comment-desc p{
+    font-size: 1.6rem;
+}
+
+
+/*! comment item end */
+
+
+/*! comment form start*/
+
+.tab-panel-reviews span.required{
+    color: #e51414;
+    font-weight: 500;
+}
+
+
+.tab-panel-reviews .review-form-wrapper h2{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 2rem 0;
+    border-bottom: 1px solid #dee0ea;
+    padding-bottom: 1.6rem  ;
+}
+
+
+.tab-panel-reviews .comment-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+
+.tab-panel-reviews .comment-note{
+    font-size: 1.4rem;
+}
+
+
+.tab-panel-reviews .comment-rating{
+    margin: 2rem 0;
+    font-size: 1.4rem;
+}
+
+.tab-panel-reviews .comment-rating .stars{
+    display: flex;
+}
+
+.tab-panel-reviews .comment-rating .stars a{
+    display: flex;
+    padding: 0.4rem 1rem;
+    border-right: 1px solid #dee0ea;
+    margin-top: 0.5rem;
+    transition: .2s ease all;
+}
+
+
+
+.tab-panel-reviews .comment-rating .stars a:first-child{
+    padding-left: 0;
+}
+
+
+.tab-panel-reviews .comment-rating .stars a:last-child{
+    border: none;
+}
+
+
+
+.tab-panel-reviews .comment-rating .stars a:hover i{
+    color: gold;
+}
+
+
+
+
+.tab-panel-reviews .comment-rating .star.active  i{
+    color: gold;
+}
+
+
+
+.tab-panel-reviews .comment-rating .star i{
+    font-size: 1rem;
+    color: #dee0ea;
+    transition: .2s ease all;
+}
+
+.comment-form .form-comment{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    row-gap: 0.4rem;
+}
+
+.comment-form .comment-form-cookies{
+    font-size: 1.4rem;
+}
+
+/*! comment form end  */
+
+
+
+
+
+@media (max-width: 568px){
+    .tab-panel  .tab-panel-desc,
+    .tab-panel  .tab-panel-info,
+    .tab-panel  .tab-panel-reviews{
+        width: 100%;
+        padding: 2rem;
+
+    }
+}

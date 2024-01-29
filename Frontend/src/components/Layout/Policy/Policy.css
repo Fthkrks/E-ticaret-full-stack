@@ -1,0 +1,43 @@
+
+.policy{
+    border: 1px solid #dee0ea;
+    margin-top: 3rem;
+}
+
+.policy-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+.policy-list li{
+    display: flex;
+    padding: 3rem 0;
+    align-items: center;
+    gap: 1rem;
+}
+
+.policy-list li strong{
+
+font-size: 1.5rem;
+
+}
+
+
+.policy-list li i{
+
+    font-size: 4rem;
+
+}
+
+@media (max-width: 1200px){
+
+
+    .policy-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

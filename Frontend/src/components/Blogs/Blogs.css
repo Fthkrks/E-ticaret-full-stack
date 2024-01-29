@@ -1,0 +1,20 @@
+.blogs{
+    margin-bottom: 3rem;
+}
+
+
+.blogs .blog-list{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+
+}
+
+
+
+@media (max-width: 768px){
+    .blogs .blog-list{
+        grid-template-columns: 1fr;
+    }
+}

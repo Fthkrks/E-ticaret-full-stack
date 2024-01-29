@@ -1,0 +1,8 @@
+.campaigns .campaigns-wrapper{
+    display: flex;
+    gap: 3rem;
+    margin: 3rem 0;
+    flex-wrap: wrap;
+    
+}
+

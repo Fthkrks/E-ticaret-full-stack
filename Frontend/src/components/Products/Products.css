@@ -1,0 +1,12 @@
+.products{
+    margin-bottom: 4rem;
+
+}
+
+
+
+.products .product-list{
+    display: flex;
+    gap: 3rem; 
+
+}

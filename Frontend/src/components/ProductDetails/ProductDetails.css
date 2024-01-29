@@ -1,0 +1,22 @@
+/*! topbar start  */
+
+
+.single-topbar{
+    margin-top: 3rem;
+}
+
+/*! topbar end */
+
+
+
+.single-content{
+    margin: 3rem 0;
+    display: flex;
+
+}
+
+
+.single-content .site-main{
+    display: flex;
+    justify-content: space-between;
+}

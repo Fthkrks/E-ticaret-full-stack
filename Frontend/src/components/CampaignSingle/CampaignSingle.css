@@ -1,0 +1,54 @@
+.campains-single{
+    background-image: url(../../img/single-campaign.png);
+    background-attachment: fixed;
+    padding: 14rem 1.5rem;
+    margin-bottom: 3rem;
+    
+    
+}
+
+
+
+.campain-wrapper{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.campain-wrapper strong{
+    font-size: 5.5rem;
+    font-weight: 600;
+    margin: 2.5rem 0;
+
+}
+
+
+
+.campain-wrapper span{
+    display: inline-block;
+    width: 5rem;
+    height: 0.5rem;
+    background-color: white;
+}
+
+
+.campain-wrapper  a{
+    
+    background-color: white;
+    margin-top: 6rem;
+
+
+}
+
+
+.campain-wrapper  a:hover{
+    background-color: #1367ef;
+    border-color: #1367ef;
+    color:white;
+    
+    
+
+}
